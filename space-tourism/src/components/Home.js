@@ -14,7 +14,7 @@ export const Home = () => (
             </div>
         </HomeStyles>
         <LargeButtonStyles className="flex">
-            <button className="large-button uppercase ff-serif fs-600 text-dark bg-white">Explore</button>
+            <Button className="large-button uppercase ff-serif fs-600 text-dark bg-white">Explore</Button>
         </LargeButtonStyles>
     </>
 )
@@ -22,6 +22,7 @@ export const Home = () => (
 const HomeStyles = styled.div `
     padding: 5px;
     margin: 2px;
+    
 `
 
 const LargeButtonStyles = styled.div `
