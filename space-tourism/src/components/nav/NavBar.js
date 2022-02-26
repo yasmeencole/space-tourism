@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import styled from 'styled-components';
+import "./Nav.css"
 
 
 export const NavBar = () => {
     return (
-        <NavStyles className="navbar uppercase text-white letter-spacing-2">
+        <NavStyles className="navbar uppercase text-white letter-spacing-2 underline-indicators">
             <div className="navbar__item active">
                 <Link className="navbar__link" to="/">Home</Link>
             </div>
@@ -19,6 +20,8 @@ export const NavBar = () => {
                 <Link className="navbar__link" to="/technology">Technology</Link>
             </div>
         </NavStyles>
+
+        
     )
 }
 
@@ -27,10 +30,5 @@ const NavStyles = styled.div `
     padding: 5px;
     gap: 5rem;
     backdrop-filter: blur(81.5485px);
+    --underline-gap: 2rem;
 `
-
-// const LinkStyles = styled.Link `
-//     display: flex;
-//     padding: 5px;
-//     gap: 5rem;
-// `

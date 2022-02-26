@@ -1,0 +1,20 @@
+/* Navigation */
+
+.navbar__link {
+    text-decoration: none;
+    color: hsl( var(--clr-white) );
+}
+
+.underline-indicators > * {
+    border-bottom: .2rem solid hsl( var(--clr-white) / 0);
+    padding: var(--underline-gap, 1rem) 0;
+}
+
+.underline-indicators > *:hover,
+.underline-indicators > *:focus {
+    border-color: hsl( var(--clr-white) / .5);
+}
+
+.underline-indicators > .active{
+    border-color: hsl( var(--clr-white) / 1);
+}

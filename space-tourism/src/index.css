@@ -178,4 +178,3 @@ border: 0;
 .large-button:focus::after {
   transform: scale(1.5);
 }
-
